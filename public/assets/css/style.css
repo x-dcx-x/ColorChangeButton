@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#phrase {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#buttons {
+    margin-top: 2rem;
+    display: flex;
+}
+
+#but1, #but2, #but3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    }
